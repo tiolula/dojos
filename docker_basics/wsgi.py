@@ -1,0 +1,1 @@
+from guia_do_mochileiro_api.app import app

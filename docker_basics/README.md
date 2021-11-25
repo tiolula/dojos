@@ -14,7 +14,7 @@ O estado inicial está na branch _main_, enquanto a resolução padrão está na
 
 No estado inicial do Dojo você consegue verificar se tudo está OK para começar usando o comando ```flask run```
 
-Ele vai subir a aplicação no seu computador. Se tudo estiver OK, ao acessar no seu navegador o endereço ```http://127.0.0.1:5000/guia/quote``` você deverá ver a mensagem ```NÃO ENTRE EM PÂNICO```
+Ele vai subir a aplicação no seu computador. Se tudo estiver OK, ao acessar no seu navegador o endereço ```http://localhost:8042/guia/quote``` você deverá ver a mensagem ```NÃO ENTRE EM PÂNICO```
 
 ## O desafio
 

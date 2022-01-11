@@ -1,5 +1,5 @@
 require 'rspec/autorun'
-require_relative 'example_calculator'
+require_relative 'calculator'
 
 describe "Sum calculation" do
     it "sums 1 and 2 and expect 3 as result" do

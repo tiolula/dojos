@@ -4,10 +4,10 @@ import cachipum.juego as juego
 class TesteDeCachipum(TestCase):
 
     def teste_jugador_y_pelota_gana_jugador(self):
-        valor_a = "jugador"
-        valor_b = "pelota"
-        resultado_esperado = "jugador"
+        opcion_a = "jugador"
+        opcion_b = "pelota"
+        ganador_esperado = "jugador"
 
-        resultado_calculado = juego.jugar(valor_a, valor_b)
+        ganador = juego.jugar(opcion_a, opcion_b)
 
-        self.assertEqual(resultado_calculado, resultado_esperado)
+        self.assertEqual(ganador, ganador_esperado)

@@ -8,6 +8,6 @@ class TesteDeCachipum(TestCase):
         valor_b = 3
         resultado_esperado = 5
 
-        resultado_calculado = juego.suma(valor_a, valor_b)
+        resultado_calculado = juego.jugar(valor_a, valor_b)
 
         self.assertEqual(resultado_calculado, resultado_esperado)

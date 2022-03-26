@@ -3,7 +3,7 @@ import cachipum.juego as juego
 
 class TesteDeCachipum(TestCase):
 
-    def teste_suma_2_y_3_retornando_5(self):
+    def teste_jugador_y_pelota_gana_jugador(self):
         valor_a = 2
         valor_b = 3
         resultado_esperado = 5

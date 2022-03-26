@@ -1,2 +1,2 @@
 def jugar(a, b):
-    return 5
+    return "jugador"

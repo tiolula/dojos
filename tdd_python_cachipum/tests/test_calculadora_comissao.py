@@ -12,6 +12,15 @@ class TesteDeCachipum(TestCase):
 
         self.assertEqual(ganador, ganador_esperado)
     
+    def teste_pelota_y_jugador_gana_jugador(self):
+        opcion_a = "pelota"
+        opcion_b = "jugador"
+        ganador_esperado = "jugador"
+
+        ganador = juego.jugar(opcion_a, opcion_b)
+
+        self.assertEqual(ganador, ganador_esperado)
+
     def teste_pelota_y_arbitro_gana_pelota(self):
         opcion_a = "pelota"
         opcion_b = "arbitro"

@@ -1,7 +1,7 @@
 import sys
 
-def verificarPTBR(palavra_para_traducao, palavra_que_vai_ser_traduzida):
-    return palavra_para_traducao == palavra_que_vai_ser_traduzida
+def verificarPTBR(texto_inserido, resposta_certa):
+    return texto_inserido == resposta_certa
 
 def mensagem(resultado):
     if (resultado == True):
@@ -11,3 +11,5 @@ def mensagem(resultado):
 
 if __name__ == "__main__":
     texto_inserido = input("Como se escreve 'quarenta e dois em inglês?\n")
+    resultado = verificarPTBR(texto_inserido, "forty two")
+    mensagem(resultado)

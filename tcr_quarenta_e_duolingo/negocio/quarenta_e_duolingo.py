@@ -9,4 +9,5 @@ def mensagem(resultado):
     else:
         print("Errrrrou!!!!")
 
-texto_inserido = input("Como se escreve 'quarenta e dois em inglês?\n")
+if __name__ == "__main__":
+    texto_inserido = input("Como se escreve 'quarenta e dois em inglês?\n")

@@ -10,6 +10,8 @@ def mensagem(resultado):
         print("Errrrrou!!!!")
 
 if __name__ == "__main__":
-    texto_inserido = input("Como se escreve 'quarenta e dois' em inglês?\n")
-    resultado = verificarPTBR(texto_inserido, "forty two")
+    palavra = "quarenta e dois"
+    resposta_certa = "forty two"
+    texto_inserido = input("Como se escreve " + palavra + " em inglês?\n")
+    resultado = verificarPTBR(texto_inserido, resposta_certa)
     mensagem(resultado)

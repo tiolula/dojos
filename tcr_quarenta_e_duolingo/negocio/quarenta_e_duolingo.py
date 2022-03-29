@@ -9,4 +9,4 @@ def mensagem(resultado):
     else:
         print("Errrrrou!!!!")
 
-print("Oi")
+texto_inserido = input("Como se escreve 'quarenta e dois em inglês?\n")
